@@ -13,3 +13,4 @@ SELECT TOP (1000) [InvoiceLineID]
       ,[LastEditedBy]
       ,[LastEditedWhen]
   FROM [WideWorldImporters].[Sales].[InvoiceLines]
+  WHERE ExtendedPrice > 1000;
