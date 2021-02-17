@@ -14,4 +14,6 @@ SELECT TOP (1000) [InvoiceLineID]
       ,[LastEditedWhen]
   FROM [WideWorldImporters].[Sales].[InvoiceLines]
 
-   SELECT SUM(ExtendedPrice) FROM [WideWorldImporters].[Sales].[InvoiceLines]
+   --SELECT SUM(ExtendedPrice) FROM [WideWorldImporters].[Sales].[InvoiceLines]
+
+   WHERE ExtendedPrice = (SELECT MAX(ExtendedPrice) FROM [WideWorldImporters].[Sales].[InvoiceLines])
