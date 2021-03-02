@@ -1,0 +1,6 @@
+CREATE TABLE Goods
+(
+id INT NOT NULL,
+Name VARCHAR(30) NOT NULL,
+GoodGroup INT NOT NULL
+)
