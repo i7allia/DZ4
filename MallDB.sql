@@ -1,7 +1,7 @@
-CREATE TABLE GoodsSales
-(
-id INT NOT NULL,
-good_id INT NOT NULL,
-quantity INT,
-Sale_date DATE NOT NULL,
-)
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [id]
+      ,[good_id]
+      ,[quantity]
+      ,[Sale_date]
+  FROM [MallDB].[dbo].[GoodsSales]
+  INSERT INTO GoodsSales (id, good_id, quantity, Sale_date) VALUES (2, 2, 5, '2009-02-21')
