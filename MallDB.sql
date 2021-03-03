@@ -4,4 +4,4 @@ SELECT TOP (1000) [id]
       ,[quantity]
       ,[Sale_date]
   FROM [MallDB].[dbo].[GoodsSales]
-  INSERT INTO GoodsSales (id, good_id, quantity, Sale_date) VALUES (2, 2, 5, '2009-02-21')
+  INSERT INTO GoodsSales (id, good_id, quantity, Sale_date) VALUES (11, 2, 1378, '2017-12-09')
